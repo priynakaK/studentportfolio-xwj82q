@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Login Page
+    </title>
+</head>
+ 
+<body>
+    <h1>Enter Your Username</h1>
+ 
+    <input id="name" type="text">
+	<h1>Enter Your password</h1>
+ 
+    <input id="password" type="password">
+    <button type="button" onclick="login()">Submit</button>
+    <p style="color:green" id="demo"></p>
+ 
+ 
+    <script>
+        function EnterName() {
+            let x = document.getElementById("name").value;
+ 
+            document.getElementById("demo").innerHTML =
+                "Welcome to Geeks For Geeks " + x;
+        }
+    </script>
+</body>
+</html>
